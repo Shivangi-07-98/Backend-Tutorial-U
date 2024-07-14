@@ -1,0 +1,10 @@
+npm i express
+
+GET Request
+Purpose: Used to request data from a server.
+
+use GET to retrieve data from the server 
+and use POST to send data to the server
+
+
+Using res.status(400).json{} is incorrect and will result in a syntax error. The json method is a function and must be called with parentheses().

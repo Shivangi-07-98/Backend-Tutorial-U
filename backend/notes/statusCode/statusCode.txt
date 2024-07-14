@@ -1,0 +1,11 @@
+
+| Status Code | Meaning               | Description                                               
+|-------------|-----------------------|-----------------------------------------------------------
+| 200         | OK                    | The request has succeeded.               
+| 201         | Created               | The request has been fulfilled, resulting in the creation of a new resource.
+| 307         | Temporary Redirect    | The requested resource resides temporarily under a different URI.
+| 308         | Permanent Redirect    | The requested resource has been assigned a new permanent URI.
+| 400         | Bad Request           | The server cannot process the request due to a client error.
+| 404         | Not Found             | The requested resource could not be found on the server.
+| 500         | Internal Server Error | The server encountered an unexpected condition that prevented it from fulfilling the request.
+| 502         | Bad Gateway           | The server received an invalid response from the upstream server.
